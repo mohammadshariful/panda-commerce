@@ -1,0 +1,50 @@
+/* google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+}
+.search-item {
+  position: relative;
+}
+.search-input {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+  border: 0;
+  outline: 0;
+  border-radius: 30px;
+  transition: 0.5s ease-in;
+}
+.search-input:focus {
+  width: 400px;
+}
+.fa-search {
+  position: absolute;
+  top: 9px;
+  right: 10px;
+}
+.banner {
+  padding-top: 45px;
+}
+.bg-color {
+  background-color: #feeae9;
+}
+
+.color {
+  color: #ff136f;
+}
+
+.link-btn {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 20px 0;
+  padding: 10px 30px;
+  background-color: #ff136f;
+  color: #fff;
+  border-radius: 5px;
+}
