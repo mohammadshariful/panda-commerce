@@ -3,7 +3,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
 }
 .search-item {
   position: relative;
@@ -33,18 +33,33 @@ body {
 .bg-color {
   background-color: #feeae9;
 }
-
+.text-color {
+  color: #ff9d00;
+}
 .color {
   color: #ff136f;
 }
 
 .link-btn {
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 20px 0;
-  padding: 10px 30px;
   background-color: #ff136f;
-  color: #fff;
-  border-radius: 5px;
+}
+
+/* categories styles */
+#categories img {
+  width: 70px;
+  height: 90px;
+  object-fit: cover;
+}
+.watch {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+}
+.bag {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+.shoes {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+}
+
+main {
+  background-color: #f4f4f4;
 }
